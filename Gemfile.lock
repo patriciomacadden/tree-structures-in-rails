@@ -4,6 +4,7 @@ GEM
     ast (2.4.3)
     ffi (1.17.2)
     ffi (1.17.2-aarch64-linux-gnu)
+    ffi (1.17.2-x86_64-linux-gnu)
     json (2.16.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -70,6 +71,7 @@ GEM
       standard
     tailwindcss-ruby (4.1.16)
     tailwindcss-ruby (4.1.16-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.16-x86_64-linux-gnu)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
@@ -78,6 +80,7 @@ GEM
 PLATFORMS
   aarch64-linux
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   kramdown

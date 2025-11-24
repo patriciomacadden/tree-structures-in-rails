@@ -12,6 +12,7 @@ def compile_css
   FileUtils.cp("assets/PPMonumentExtended-Regular.otf", "output/PPMonumentExtended-Regular.otf")
   FileUtils.cp("assets/logo.svg", "output/logo.svg")
   FileUtils.cp("assets/logo-square.svg", "output/logo-square.svg")
+  FileUtils.cp(Dir.glob("assets/*.png"), "output/")
 end
 
 def run_build
